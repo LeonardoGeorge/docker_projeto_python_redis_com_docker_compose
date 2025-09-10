@@ -1,0 +1,8 @@
+restart e dependências
+
+restart: always (Sempre vai reiniciar um produto no ar se ele cair)
+restart: unless-stopped (Eu tenho o controle de stop do container)
+restart: on-failure:3 (Quantidad de vezes que ele podera reiniciar em caso de falha)
+
+depends_on:
+      - redis (Dependência de outro container, nesse caso o redis)
