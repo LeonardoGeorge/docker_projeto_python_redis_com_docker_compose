@@ -6,3 +6,6 @@ restart: on-failure:3 (Quantidad de vezes que ele podera reiniciar em caso de fa
 
 depends_on:
       - redis (Dependência de outro container, nesse caso o redis)
+
+
+Ambientes (dev/prod)
